@@ -16,8 +16,13 @@
     justify-content: center;
     margin-top: 50px;
 }
-.btn-group-vertical {
-    justify-content: center;
+#socialmedia {
+    text-align: center;
+    
+}
+
+#contactform {
+    text-align: center;
 }
 
 .p {

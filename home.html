@@ -61,23 +61,46 @@
         </div>
       </nav> <br>
     
-    <div class="container-fluid my-5">
-        <h2 class="text-danger">What's Trending?</h2>
-        <div class="row justify-content-center">
-            <div class="col-sm-3 m-4 bg-clear text-danger">
-                <img src="/Images/slipknot-we-are-not-your-kind.jpg" class="img-fluid"> We Are Not Your Kind - Slipknot</div>
-            <div class="col-sm-3 m-4 bg-clear text-danger">
-                <img src="/Images/bleedmedryMMF.jpeg" class="img-fluid"> Bleed Me Dry - Memphis May Fire</div>
-            <div class="col-sm-3 m-4 bg-clear text-danger">
-                <img src="/Images/lornashorenothingness.jpg" class="img-fluid"> And I Return to Nothingness - Lorna Shore</div>
-            <div class="col-sm-3 m-4 bg-clear text-danger">
-                <img src="/Images/paranoid_front.jpg" class="img-fluid"> Paranoid - Black Sabbath</div>
-            <div class="col-sm-3 m-4 bg-clear text-danger">
-                <img src="/Images/holydiver.jpg" class="img-fluid"> Holy Diver - Dio</div>
-            <div class="col-sm-3 m-4 bg-clear text-danger">
-                <img src="/Images/destroyerkiss.jpg" class="img-fluid"> Destroyer - KISS</div>
+      <div id="demo" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <h2 class="text-danger"><a href="#" class="text-danger">Trending</a></h2>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
         </div>
-    </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/Images/slipknot-we-are-not-your-kind.jpg" alt="WANYK" class="d-block" style="width:100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/bleedmedryMMF.jpeg" alt="bleedmedry" class="d-block" style="width: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/lornashorenothingness.jpg" alt="returntonothingness" class="d-block" style="width: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/destroyerkiss.jpg" alt="destroyerKISS" class="d-block" style="width: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/iron-maiden-senjutsu.jpeg" alt="SenjutsuIM" class="d-block" style="width: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/Metallica-The-Metallica-Blacklist.webp" class="d-block" alt="MetallicaBlacklist" style="width: 100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/traumaiprevail.jpg" alt="IPrevailTrauma" class="d-block" style="width: 100%;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
 
     <div class="container-fluid my-5">
         <h2 class="text-danger">Classics</h2>
@@ -93,15 +116,28 @@
             <div class="col-sm-3 m-4 bg-clear text-danger">
                 <img src="/Images/panteradisplayofpower.jpg" class="img-fluid"> Vulgar Display of Power - Pantera</div>
             <div class="col-sm-3 m-4 bg-clear text-danger">
-                <img src="/Images/rocknrollrainbow.webp    " class="img-fluid"> Long Live Rock N Roll - Rainbow</div>
+                <img src="/Images/rocknrollrainbow.webp" class="img-fluid"> Long Live Rock N Roll - Rainbow</div>
         </div>
     </div>
 
     <div class="container-fluid my-5">
-      <h2 class="text-danger"> EPs</h2>
+      <h2 class="text-danger"> OSTs</h2>
       <div class="row justify-content-center">
         <div class="col-sm-3 m-4 bg-clear text-danger">
-          <img src="/Images/quarantinefromashes.jpg" class="img-fluid" alt="QuarantineFATN">Quarantine EP Vol. 3 - From Ashes to New</div>
+          <img src="/Images/witcher3ost.jpeg" class="img-fluid" alt="witcher3ost"> The Witcher 3: Wild Hunt Full Soundtrack (DLC Included)
+        </div>
+        <div class="col-sm-3 m-4 bg-clear text-danger">
+          <img src="/Images/ac2ost.jpeg" class="img-fluid" alt="AC2ost"> Assassin's Creed 2 Original Soundtrack
+        </div>
+        <div class="col-sm-3 m-4 bg-clear text-danger">
+          <img src="/Images/DS2-ost.webp" class="img-fluid" alt="Darksiders2"> Darksiders 2 Deathinitive Edition Original Soundtrack
+        </div>
+        <div class="col-sm-3 m-4 bg-clear text-danger">
+          <img src="/Images/hadesost.jpg" class="img-fluid" alt="HadesOST"> Hades Original Soundtrack
+        </div>
+        <div class="col-sm-3 m-4 bg-clear text-danger">
+          <img src="/Images/halo3ost.jpeg" class="img-fluid" alt="Halo3"> Halo 3 Original Soundtrack
+        </div>
       </div>
     </div>
 
@@ -163,21 +199,19 @@
   </div> <br>
   
   <footer class="page-footer font-small blue pt-4 bg-light">
-    <div class="container-fluid align-items-center">
+    <div class="container-fluid" id="contactform">
       <div class="row">
-        <div class="col-md-6 mt-md-0 mt-3">
-  
-          <!-- Content -->
-            <h2 class="text-uppercase">Contact Us</h2>
+        <div class="col-md-6 mt-md-0 mt-3">          
+          <h2 class="text-uppercase">Contact Us</h2>
             <p>If there's something you'd like to see, or you'd just like to get in contact, shoot us a message. We'd love to hear from you!</p>
             <form action="/action_page.php">
               <div class="mb-3 mt-3">
                 <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                <input type="email" class="form-control" id="email" placeholder="jeff@jeffmail.jeff" name="email">
               </div>
               <div class="mb-3">
                 <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                <input type="password" class="form-control" id="pwd" placeholder="Oi! Get your own password!" name="pswd">
               </div>
               <div class="form-check mb-3">
                 <label class="form-check-label">
@@ -194,7 +228,7 @@
         <hr class="clearfix w-100 d-md-none pb-3">
   
         <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3 justify-content-center">
+      <div class="col-md-3 mb-md-0 mb-3 justify-content-center" id="socialmedia">
 
         <!-- Grid column -->
   

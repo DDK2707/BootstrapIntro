@@ -1,17 +1,25 @@
 .carousel {
     width: 900px; height: 900px;
     justify-content: center;
-    margin-bottom: 20%;
+    margin-bottom: 50px;
 }
 
 .text-danger {
     text-align: center;
 }
 
+.modal {
+    margin-bottom: 50px;
+}
+
 .footer {
-    margin-top: 20%;
     justify-content: center;
+    margin-top: 50px;
 }
 .btn-group-vertical {
     justify-content: center;
+}
+
+.p {
+    text-align: center;
 }

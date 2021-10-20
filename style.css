@@ -1,0 +1,17 @@
+.carousel {
+    width: 900px; height: 900px;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.text-danger {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20%;
+    justify-content: center;
+}
+.btn-group-vertical {
+    justify-content: center;
+}

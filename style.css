@@ -1,7 +1,15 @@
 .carousel {
-    width: 900px; height: 900px;
+    width: 900px; height: 900px; 
     justify-content: center;
     margin-bottom: 50px;
+}
+
+.carousel-indicators {
+    visibility: hidden;
+}
+
+.carousel-control {
+    visibility: hidden;
 }
 
 .text-danger {
@@ -28,6 +36,13 @@
     text-align: center;
 }
 
+#headingmore :hover {
+     {
+        display: none;
+        
+    }
+}
+
 #morebutton {
-    
+
 }
